@@ -1,0 +1,412 @@
+@charset "UTF-8";
+
+/*================================================
+ *  CSSリセット
+ ================================================*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-weight:normal;}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/*================================================
+ *  一般・共通設定
+ ================================================*/
+body {
+	font-size:16px;
+	font-family:'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','Yu Gothic','メイリオ','ＭＳ Ｐゴシック','MS PGothic' ;
+	line-height:1.6;
+}
+
+#contents {
+	width:780px;
+	margin:0 auto;
+}
+
+header {
+	width:780px;
+	margin:0 auto;
+}
+
+a {
+	color:#0000FF;
+}
+a:hover {
+	color:#4b00ff;
+}
+
+h1 {
+	width: 100%;
+	font-size:28px;
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','Yu Gothic','メイリオ','ＭＳ Ｐゴシック','MS PGothic'  
+}
+
+h2 {
+	margin-bottom:0.5em;
+	font-size:24px;
+	border-bottom:1px solid #000080;
+}
+
+h3 {
+	margin-bottom:0.25em;
+	font-size:18px;
+}
+h3:before {
+	content:"\0025b6\00a0";
+	color:#cf0c0c;
+}
+
+h4 {
+	font-size:20px;
+}
+
+h5 {
+	margin-bottom:0.25em;
+	padding:2px;
+	font-size:16px;
+	border-top:1px dotted #ddd;
+	border-bottom:1px dotted #ddd;
+	background:#f3f3f3;
+}
+
+h6 {
+	margin-bottom:0.25em;
+	padding-left:5px;
+	font-size:16px;
+	border-left:5px solid #00008f;
+}
+
+summary {
+	font-size:20px;
+}
+
+p {
+	margin:0 0 1em 0;
+}
+
+img {
+	vertical-align:bottom;
+}
+
+em {
+	font-weight:bold;
+}
+
+strong {
+	font-weight:bold;
+	color:#000000;
+}
+
+pre {
+	margin:1em 0;
+	padding:1em;
+}
+
+blockquote {
+	margin-bottom:1em;
+	padding:1em;
+	border:1px dotted #ddd;
+	border-left:5px solid #ddd;
+}
+
+ul,ol,dl {
+	margin:0 0 1em 0;
+}
+ul li {
+	list-style:disc;
+}
+ol li {
+	list-style:decimal;
+}
+li {
+	margin-left:2em;
+	margin-bottom:0.7em;
+}
+
+dt {
+	margin-top:1em;
+	margin-bottom:0.5em;
+	border-bottom:1px dotted #000000;
+}
+dt:before {
+	content:"\0025a0";
+}
+dd {
+	margin-bottom:1em;
+}
+
+/*================================================
+ *  ボタン
+ ================================================*/
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+  font-size: 20px;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+
+/*================================================
+ *  テーブル
+ ================================================*/
+
+table {
+	width:100%;
+	margin-bottom:1em;
+	border-collapse:collapse;
+	border:1px solid #ddd;
+	counter-reset: worknum 21 papernum 89 lecturenum 169 awardnum patentnum 11
+	activitynum 39 comresearchnum 11;
+}
+th {
+	padding:10px;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid #ddd;
+	background:#95bbc6;
+}
+
+table td.work{ 	
+	counter-increment:worknum -1;
+	text-align: center
+}
+table td.work:before{ 	
+	content: counter(worknum) ; 
+} 
+table td.paper{ 	
+	counter-increment:papernum -1;
+	text-align: center
+}
+table td.paper:before{ 	
+	content: counter(papernum) ; 
+} 
+table td.lecture{ 
+	counter-increment:lecturenum -1;
+	text-align: center
+}
+table td.lecture:before{ 	
+	content: counter(lecturenum) ; 
+}
+table td.award{ 
+	counter-increment:awardnum;
+	text-align: center
+}
+table td.award:before{ 	
+	content: counter(awardnum) ; 
+}
+table td.patent{ 
+	counter-increment:patentnum -1;
+	text-align: center
+}
+table td.patent:before{ 	
+	content: counter(patentnum) ; 
+}
+table td.activity{ 
+	counter-increment:activitynum -1;
+	text-align: center
+}
+table td.activity:before{ 	
+	content: counter(activitynum) ; 
+}
+table td.comresearch{ 
+	counter-increment:comresearchnum -1;
+	text-align: center
+}
+table td.comresearch:before{ 	
+	content: counter(comresearchnum) ; 
+}
+
+
+
+td {
+	padding:10px;
+	text-align:left;
+	border:1px solid #ddd;
+}
+
+/*================================================
+ *  汎用クラス
+ ================================================*/
+.list {
+	padding:0 0 0 2em;
+}
+
+.list li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-indent:-1.3em;
+}
+.list li:before {
+	content:"\002605\00a0";
+	color:#ffc720;
+}
+
+.temp {
+	clear:both;
+	overflow:hidden;
+	margin-bottom:50px;
+}
+
+.img {
+	float:left;
+	width:300px;
+}
+
+.text {
+	float:right;
+	width:450px;
+}
+
+.photo {
+	margin:20px 0;
+	padding:10px;
+	box-shadow:rgba(113, 135, 164, 0.8) 0 3px 15px 0;
+	background:#fff;
+}
+
+.photo img {
+	max-width:100%;
+}
+
+/*================================================
+* タイトル横の線
+ ================================================*/
+.title-border {
+display: flex;
+align-items: center;
+}
+.title-border:before,
+.title-border:after {
+border-top: 1px solid;
+content: "";
+flex-grow: 1;
+}
+.title-border:before {
+margin-right: 1rem;
+}
+.title-border:after {
+margin-left: 1rem;
+}
+
+/*================================================
+ *  ヘッダー
+ ================================================*/
+header {
+	margin-top:30px;
+	margin-bottom:50px;
+}
+header h1 {
+	margin-bottom:30px;
+}
+h1 span {
+	font-size:12px;
+}
+
+/*================================================
+ *  グローバルナビゲーション
+ ================================================*/
+nav {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	padding:5px 0;
+	background:#ffffff;
+	z-index:10;
+	border: 2px solid #00003F;
+	border-top-style:none; 
+	border-left-style:none; 
+	border-right-style:none; 
+}
+nav img {
+	font-size: 26px;
+	font-family: Cambria;
+	position:relative;
+	float:left;
+	left: 3%;
+	margin: 5px
+}
+nav ul {
+	position:relative;
+	float:right;
+	margin: 10px;
+}
+nav li {
+	position:relative;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:5px 15px;
+}
+nav li a {
+	color:#000;
+	text-decoration:none;
+}
+nav li a:hover {
+	color:#0f0f0f;
+	text-decoration:underline;;
+}
+
+/*================================================
+ *  メイン
+ ================================================*/
+section {
+	margin-bottom:100px;
+}
+
+/*================================================
+ *  フッター
+ ================================================*/
+footer {
+	clear:both;
+	padding:20px 0;
+	font-size:11px;
+	text-align:center;
+}
+
+/*================================================
+ *  ページトップへの戻り
+ ================================================*/
+.totop {
+	position:fixed;
+	bottom:15px;
+	right:15px;
+}
+.totop a {
+	display:block;
+	text-decoration:none;
+}
+.totop img {
+	background:#005;
+}
+.totop img:hover {
+	background:#00a;
+}
+
+/*================================================
+ *  タブレット/スマートフォン向けデザイン
+ ================================================*/
+/* スクロールバーを考慮して20px大きいサイズで切り替え */
+@media screen and (max-width:799px) {
+	body {
+		box-sizing:border-box;
+		width:100%;
+		padding:0 10px;
+	}
+
+	#contents {
+		width:100%;
+	}
+
+	header {
+		width:100%;
+	}
+
+}
