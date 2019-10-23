@@ -40,7 +40,7 @@ h1 {
 h2 {
 	margin-bottom:0.5em;
 	font-size:24px;
-	border-bottom:1px solid #000080;
+	border-bottom:3px solid #000080;
 }
 
 h3 {
@@ -72,8 +72,16 @@ h6 {
 	border-left:5px solid #00008f;
 }
 
+/*2019/10/23 h6で囲っていた要素をsummaryに置換。*/
 summary {
-	font-size:20px;
+	margin-bottom:1.25em;
+	padding-left:5px;
+	font-size:16px;
+	border-left:5px solid #00008f;
+}
+
+summary::-webkit-details-marker {
+	display: none;
 }
 
 p {
