@@ -46,18 +46,14 @@
 	</nav>
 
 	<script>
-		function openDetails() {
-			console.log(location.hash.substr(1));
-			console.log(typeof location.hash.substr(1));
-			typeof location.hash.substr(1);
-			if (document.getElementById(location.hash.substr(1)) != null) {
-				var element = document.getElementById(location.hash.substr(1));
+		window.onload = function () {
+			if (document.getElementById(location.hash.split(1) != null){
+				var element = document.getElementById(location.hash.split(1));
 				console.log(element);
 				element.open = true;
 				//#idに対応したdetailsを開閉する処理
 			}
-		}
-		openDetails();
+		};
 	</script>
 
 
@@ -133,8 +129,8 @@
 			</details>
 
 
-			<dt><span id="2020-04-08">2020-04-08</span></dt>
-			<details>
+			<dt><span>2020-04-08</span></dt>
+			<details id="2020-04-08">
 				<summary><strong>📝4月の研究室活動報告：情報セキュリティ研究室全体会合(2020/04/03)</strong>
 				</summary>
 				<dd>
@@ -157,8 +153,8 @@
 				</dd>
 			</details>
 
-			<dt><span id="2020-04-08">2020-04-08</span></dt>
-			<details>
+			<dt><span>2020-04-08</span></dt>
+			<details id="2020-04-08">
 				<summary><strong>📝3月の研究室活動報告：第182回DPS・第88回CSEC合同研究発表会への参加</strong>
 				</summary>
 				<dd>
