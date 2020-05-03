@@ -47,8 +47,9 @@
 
 	<script>
 		function openDetails() {
-			var element = document.getElementById("location.hash");
-			element.open;
+			var element = document.getElementById(location.hash);
+			console.log(element);
+			element.open = true;
 			//#idに対応したdetailsを開閉する処理
 		}
 	</script>
