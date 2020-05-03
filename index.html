@@ -55,6 +55,25 @@
 		}
 	</script>
 
+	<style type="text/css">
+		@keyframes modify {
+			0% {
+				padding-top: 100px;
+				margin-top: -100px;
+			}
+
+			100% {
+				padding-top: 0;
+				margin-top: 0;
+			}
+		}
+
+		:target {
+			-webkit-animation: modify 0.1s;
+			animation: modify 0.1s;
+		}
+	</style>
+
 	<!--[ニュース記事掲載欄]><![ここから]-->
 	<!--[ニュースのアイコン分け]>
 		就任・出演・掲載・表彰・受賞などめでたい内容は🎉(&#x1F389;)のアイコン
