@@ -46,7 +46,7 @@
 	</nav>
 
 	<script>
-		function openDetails() {
+		window.onload = function () {
 			var element = document.getElementById(location.hash);
 			console.log(element);
 			element.open = true;
