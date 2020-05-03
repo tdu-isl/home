@@ -48,6 +48,8 @@
 	<script>
 		function openDetails() {
 			console.log(location.hash.substr(1));
+			console.log(typeof location.hash.substr(1));
+			typeof location.hash.substr(1);
 			if (document.getElementById(location.hash.substr(1)) != null) {
 				var element = document.getElementById(location.hash.substr(1));
 				console.log(element);
