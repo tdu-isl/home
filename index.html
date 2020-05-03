@@ -46,13 +46,17 @@
 	</nav>
 
 	<script>
-		window.onload = function () {
-			var element = document.getElementById(location.hash);
-			console.log(element);
-			element.open = true;
-			//#idに対応したdetailsを開閉する処理
+		function openDetails() {
+			if (location.hash != null) {
+				var element = location.hash;
+				console.log(element);
+				element.open = true;
+				//#idに対応したdetailsを開閉する処理
+			}
 		}
 	</script>
+
+	openDetails();
 
 	<!--[ニュース記事掲載欄]><![ここから]-->
 	<!--[ニュースのアイコン分け]>
