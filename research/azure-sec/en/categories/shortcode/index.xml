@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcode on SkytechLab_BLOG</title>
+    <link>https://yoitsu1838.github.io/home/research/azure-sec/en/categories/shortcode/</link>
+    <description>Recent content in Shortcode on SkytechLab_BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>Copyright © 2021 SkytechLab. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yoitsu1838.github.io/home/research/azure-sec/en/categories/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alert Shortcode</title>
+      <link>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/shortcodes/alert/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/shortcodes/alert/</guid>
+      <description>&lt;p&gt;This article shows how to use the &lt;code&gt;alert&lt;/code&gt; shortcode.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Media Shortcodes</title>
+      <link>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/shortcodes/media/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/shortcodes/media/</guid>
+      <description>&lt;p&gt;A detailed description of media shortcodes, such as Bilibili, Tencent, Youku, iQiyi and Netease Music.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Online IDE Shortcodes</title>
+      <link>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/shortcodes/online-ide/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/shortcodes/online-ide/</guid>
+      <description>&lt;p&gt;A detailed description of online IDE shortcodes, such as JSFiddle, CodePen, JSRun.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
