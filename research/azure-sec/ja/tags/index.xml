@@ -2,90 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>タグ on SkytechLab_BLOG</title>
-    <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/</link>
+    <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/</link>
     <description>Recent content in タグ on SkytechLab_BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Copyright © 2021 SkytechLab. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 15 Aug 2021 14:19:06 +0800</lastBuildDate><atom:link href="https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Aug 2021 14:19:06 +0800</lastBuildDate><atom:link href="https://tdu-isl.github.io/home/research/azure-sec/ja/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/image/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/image/</link>
       <pubDate>Sun, 15 Aug 2021 14:19:06 +0800</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/image/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/image/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/css/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/css/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/css/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/html/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/html/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/html/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/markdown/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/markdown/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/markdown/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bilibili</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/bilibili/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/bilibili/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/bilibili/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/bilibili/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iQiyi</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/iqiyi/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/iqiyi/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/iqiyi/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/iqiyi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netease Music</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/netease-music/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/netease-music/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/netease-music/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/netease-music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tencent</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/tencent/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/tencent/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/tencent/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/tencent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Youku</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/youku/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/youku/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/tags/youku/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/ja/tags/youku/</guid>
       <description></description>
     </item>
     

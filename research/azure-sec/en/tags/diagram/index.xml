@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diagram on SkytechLab_BLOG</title>
-    <link>https://yoitsu1838.github.io/home/research/azure-sec/en/tags/diagram/</link>
+    <link>https://tdu-isl.github.io/home/research/azure-sec/en/tags/diagram/</link>
     <description>Recent content in Diagram on SkytechLab_BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Copyright © 2021 SkytechLab. All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 01 Sep 2021 11:36:50 +0800</lastBuildDate><atom:link href="https://yoitsu1838.github.io/home/research/azure-sec/en/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Sep 2021 11:36:50 +0800</lastBuildDate><atom:link href="https://tdu-isl.github.io/home/research/azure-sec/en/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diagram Guide</title>
-      <link>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/diagram/</link>
+      <link>https://tdu-isl.github.io/home/research/azure-sec/en/posts/diagram/</link>
       <pubDate>Wed, 01 Sep 2021 11:36:50 +0800</pubDate>
       
-      <guid>https://yoitsu1838.github.io/home/research/azure-sec/en/posts/diagram/</guid>
+      <guid>https://tdu-isl.github.io/home/research/azure-sec/en/posts/diagram/</guid>
       <description>&lt;p&gt;hoegehoge&lt;br&gt;
 This article offers a sample of basic diagram usage that can be used in Hugo content files.&lt;/p&gt;
 &lt;p&gt;Please see also &lt;a href=&#34;https://mermaid-js.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Mermaid&lt;/a&gt;
