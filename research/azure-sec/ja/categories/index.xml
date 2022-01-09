@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>カテゴリー on SkytechLab_BLOG</title>
-    <link>/ja/categories/</link>
+    <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/categories/</link>
     <description>Recent content in カテゴリー on SkytechLab_BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Copyright © 2021 SkytechLab. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 15 Aug 2021 14:19:06 +0800</lastBuildDate><atom:link href="/ja/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Aug 2021 14:19:06 +0800</lastBuildDate><atom:link href="https://yoitsu1838.github.io/home/research/azure-sec/ja/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
-      <link>/ja/categories/markdown/</link>
+      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/categories/markdown/</link>
       <pubDate>Sun, 15 Aug 2021 14:19:06 +0800</pubDate>
       
-      <guid>/ja/categories/markdown/</guid>
+      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/categories/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shortcode</title>
-      <link>/ja/categories/shortcode/</link>
+      <link>https://yoitsu1838.github.io/home/research/azure-sec/ja/categories/shortcode/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/ja/categories/shortcode/</guid>
+      <guid>https://yoitsu1838.github.io/home/research/azure-sec/ja/categories/shortcode/</guid>
       <description></description>
     </item>
     

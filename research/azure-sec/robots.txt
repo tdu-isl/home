@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: /sitemap.xml
+Sitemap: https://yoitsu1838.github.io/home/research/azure-sec/sitemap.xml
