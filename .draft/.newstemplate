@@ -1,21 +1,21 @@
-<dt><span>${date}</span></dt>
-<details id="${date}">
-  <summary>
-      <strong>${title}</strong>
-  </summary>
-  <dd>
-    <div>
-      <p>
-        ${body}
-      </p>
-      <table style="table-layout: fixed; width: auto; border: none;">
-        <tr>
-          <td style="border: none;"><img src="${image_path}" style="width: 100%;"></td>
-        </tr>
-        <tr>
-          <td style="border: none;"><a href="${link}" style="width: 100%;">${link_name}</a></td>
-        </tr>
-      </table>
-    </div>
-  </dd>
-</details>
+            <dt><span>${date}</span></dt>
+            <details id="${date}">
+              <summary>
+                  <strong>${title}</strong>
+              </summary>
+              <dd>
+                <div>
+                  <p>
+                    ${body}
+                  </p>
+                  <table style="table-layout: fixed; width: auto; border: none;">
+                    <tr>
+                      <td style="border: none;"><img src="${image_path}" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                      <td style="border: none;"><a href="${link}" style="width: 100%;">${link_name}</a></td>
+                    </tr>
+                  </table>
+                </div>
+              </dd>
+            </details>
