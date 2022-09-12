@@ -10,13 +10,10 @@
                   </p>
                   <table style="table-layout: fixed; width: auto; border: none;">
                     <tr>
+                      <td style="border: none;"><img src="${image_path}" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
                       <td style="border: none;"><a href="${link}" style="width: 100%;">${link_name}</a></td>
-                    </tr>
-                    <tr>
-                      <td style="border: none;"><a href="${link_2}" style="width: 100%;">${link_name_2}</a></td>
-                    </tr>
-                    <tr>
-                      <td style="border: none;"><a href="${link_3}" style="width: 100%;">${link_name_3}</a></td>
                     </tr>
                   </table>
                 </div>
